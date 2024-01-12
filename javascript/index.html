@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Arithmetic Calculator</title>
+
+    <!-- Include the SweetAlert library -->
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+
+    <h3>Arithmetic Calculator</h3>
+
+    <label for="n1">Number 1:</label>
+
+    <input type="text" id="n1" name="n1" placeholder="Enter Number 1">
+
+    <br>
+
+    <label for="n2">Number 2:</label>
+
+    <input type="text" id="n2" name="n2" placeholder="Enter Number 2">
+
+    <br>
+
+    <input type="radio" id="add" name="operation" value="add"> Add
+
+    <input type="radio" id="sub" name="operation" value="sub"> Subtract
+
+    <input type="radio" id="mul" name="operation" value="mul"> Multiply
+
+    <input type="radio" id="div" name="operation" value="div"> Divide
+
+    <br>
+
+    <input type="button" value="Calculate" onclick="calculate()">
+
+    <input type="reset" value="Reset">
+
+    
+
+    <script>
+
+        function calculate() {
+
+            // Get values from input fields
+
+            let n1 = parseFloat(document.getElementById("n1").value);
+
+            let n2 = parseFloat(document.getElementById("n2").value);
+
+            
+
+            // Check if input values are valid numbers
+
+            if (isNaN(n1) || isNaN(n2)) {
+
+                swal("Invalid input", "Please enter valid numbers.", "error");
+
+                return;
+
+            }
+
+            
+
+            // Get the selected operation
+
+            let operation = document.querySelector('input[name="operation"]:checked').value;
+
+            
+
+            // Perform the selected operation
+
+            let result;
+
+            switch (operation) {
+
+                case "add":
+
+                    result = n1 + n2;
+
+                    break;
+
+                case "sub":
+
+                    result = n1 - n2;
+
+                    break;
+
+                case "mul":
+
+                    result = n1 * n2;
+
+                    break;
+
+                case "div":
+
+                    if (n2 === 0) {
+
+                        swal("Error", "Division by zero is not allowed.", "error");
+
+                        return;
+
+                    }
+
+                    result = n1 / n2;
+
+                    break;
+
+                default:
+
+                    swal("Invalid operation", "Please select a valid operation.", "error");
+
+                    return;
+
+            }
+
+            
+
+            swal("Result", "The result is: " + result, "success");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
