@@ -1,0 +1,46 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        List<String> item=new ArrayList<>();
+        item.add("Charu");
+        item.add("Divya");
+        item.add("Mrithu");
+        item.add("Sally");
+        item.add("Shreeja");
+        Iterator itr=item.iterator();
+        while(itr.hasNext())
+        {
+            System.out.println(itr.next());
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------
+
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        List<String> item=new ArrayList<>();
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the names(type exit to stop)");
+        while(true)
+        {
+            String name=sc.nextLine();
+            if(name.equalsIgnoreCase("exit"))
+            {
+                break;
+            }
+            item.add(name);
+        }
+        System.out.println("The names are: ");
+        for(String n: item)
+        {
+            System.out.println(n);
+        }
+        
+    }
+}
+-----------------------------------------------------------------------------------------------------

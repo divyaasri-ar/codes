@@ -1,0 +1,24 @@
+Narrative Story of Virgin Media 1st part: 
+
+
+Over a decade ago, Prodapt embarked on a transformative journey with Liberty Global, forging a robust partnership that grew stronger with time. 
+Guess what?   Virgin Media is one of their affiliates.
+
+Since 2017, Virgin Media, operating regionally, shaping a significant chapter in our evolving relationship. It's not just a partnership; it's a journey we've been crafting together.
+
+Let's look into this.
+
+Operating in both the UK and Ireland, Virgin Media's landscape evolved through a 50-50 joint venture with O2 in the UK and sole ownership in Ireland. The collaboration began with providing testing services for their OSS and BSS landscape.  As time unfolded, gradually expanding into application support and became the backbone in managing services for their BIU applications. 
+ 
+
+
+In the last two years, things got seriously cool in our partnership with Virgin Media Ireland. They decided to ditch the old copper game and dive into the future with this high-tech XGS-PON fiber thing. It was like Project Kennedy, a mission to the tech moon.
+
+Guess what? We were the backstage wizards making the magic happen. We brought in the CNR Blue Planet OSS stack, and voila! Their whole fiber world came alive. It's not just tech stuff; it's a story of turning dreams into reality. Exciting times, right?
+
+
+Last July marked a significant milestone as Virgin Media Ireland went live, and we continue to support their network infrastructure, solidifying our role as an integral partner in their journey of innovation and growth. 
+
+Not just developers, but also committed supporters, we seamlessly translated our development efforts into effective support. 
+
+In this transformation, we leveraged our in-depth knowledge of the cloud ecosystem, utilizing the GCP platform to onboard applications and implement DevOps best practices. 
